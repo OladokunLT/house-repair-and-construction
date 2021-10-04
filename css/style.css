@@ -249,7 +249,7 @@ hr{
     justify-content: center;
 } 
 .about-section .about-text{
-    color: white;
+    color: rgb(255, 255, 255);
 }
 .about-section h6 {
     font-size: 18px;
@@ -312,7 +312,7 @@ hr{
     justify-content: center;
 }
 .footer-section{
-    background-color: #111111;
+    background-color: #333333;
     color: white;
 }
 .footer-main-container{
@@ -329,4 +329,82 @@ hr{
 .first-child{
     margin-bottom: 70px;
     line-height: 25px;
+}
+@media (max-width: 768px){
+    .bg-banner h4{
+        letter-spacing: 2px;
+        font-size: 2.8rem;
+    }
+    .bg-banner h1{
+        font-size: 75px;
+    }
+    .border-style{
+        margin-top: 17em;
+        padding-bottom: 20px;
+        width: 60%;
+    }
+    .slide-icon-container {
+        width: 52%;
+    }
+    .our-services-first {
+        height: 100vh;
+    }
+    .show-room-first .container, .our-services-2nd-container {
+        width: 90%;
+        margin: 50px auto;
+        flex-direction: column;
+    }
+    .show-room-first .basin-man-container {
+        width: 100%;
+    }
+    .show-room-first figcaption {
+        padding: 0 60px;
+    }
+    .worker-section {
+        height: 90vh;
+    }
+    .worker-width {
+        width: 45%;
+        padding-left: 40px;
+    }
+    .worker-section .worker-width .worker-img-container {
+        height: 90vh;
+    }
+    .worker-section .worker-text {
+        width: 55%;
+    }
+    .about-section .about-container {
+        padding: 60px 40px 20px 40px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .u {
+        width: 100%;
+    }
+    .about-section .img-container {
+        width: 100%;
+    }
+    .about-section .about-text {
+          margin: 60px 20px;
+    }
+    .to-do-section .to-do-container {
+        width: 80%;
+        margin: 80px auto 0px auto;
+    }
+    .btn-container {
+        margin-top: 70px;
+        margin-bottom: 100px;
+    }
+    .to-do-section h2 {
+        font-size: 40px;
+    }
+    .to-do-section P {
+        font-size: 30px;
+    }
+    .footer-main-container {
+        width: 50%;
+    }
+}
+@media (max-width: 425px) {
+    
 }
