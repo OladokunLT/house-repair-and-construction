@@ -420,7 +420,7 @@ hr{
         background-size: cover;
         background-repeat: no-repeat;
         overflow: hidden;
-        width: 100%;
+        width: 135%;
     }
     .slide-icon-container{
         display: none;
@@ -443,12 +443,15 @@ hr{
         width: 80%;
     }
 
+
     .our-services-first h5 {
         margin-top: 50px;
     }
     .our-services-first {
-        height: 110vh;
+        height: 120vh;
     }
+
+
     .show-room-first .text-center {
         padding: 30px 15px;
     }
@@ -465,6 +468,9 @@ hr{
         font-size: 19px;
         margin-bottom: 60px;
     }
+
+
+
     .worker-section {
         background-color: #f2f2f2;
         height: 168vh;
@@ -485,6 +491,8 @@ hr{
         width: 100%;
         padding: 30px 20px;
     }
+
+
     .services{
         flex-direction: column;
         align-content: unset;
@@ -496,6 +504,9 @@ hr{
     .our-services-2nd p{
         margin-bottom: 60px;
     }
+
+
+
     .about-section .img-container {
         width: 200%;
         display: flex;
@@ -519,6 +530,5 @@ hr{
         /* margin-top: 35px;
         margin-bottom: 60px; */
     }
-    
 
 } 
