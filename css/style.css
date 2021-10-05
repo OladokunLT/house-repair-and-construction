@@ -420,7 +420,7 @@ hr{
         background-size: cover;
         background-repeat: no-repeat;
         overflow: hidden;
-        width: 100%;
+        /* width: 100%; */
     }
     .slide-icon-container{
         display: none;
@@ -508,12 +508,17 @@ hr{
 
 
     .about-section .img-container {
-        width: 200%;
+        width: 100%;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         justify-content: space-between;
     }
+    .about-section figure {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
     .about-section h2 {
         font-size: 51px;
     }
