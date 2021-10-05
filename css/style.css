@@ -416,7 +416,7 @@ hr{
     .bg-banner {
         height: 91vh;
         background-image: url(../images/banner.jpg);
-        background-position: center;
+        background-position: left;
         background-size: cover;
         background-repeat: no-repeat;
         overflow: hidden;
