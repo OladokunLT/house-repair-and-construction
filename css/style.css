@@ -412,11 +412,11 @@ hr{
         width: 50%;
     }
 }
-@media (max-width: 425px) {
+@media (max-width: 425px){
     .bg-banner {
         height: 91vh;
         background-image: url(../images/banner.jpg);
-        background-position: right;
+        background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
         overflow: hidden;
