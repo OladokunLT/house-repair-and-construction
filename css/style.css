@@ -1,6 +1,4 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
-
 *{
     margin: 0;
     padding: 0;
@@ -23,6 +21,8 @@ h2,h3,h4,h5,h6{
     flex-direction: column;
 }
 
+/********           **********/
+
 .header-section{
     background: white;
     height: 70px;
@@ -32,41 +32,47 @@ h2,h3,h4,h5,h6{
     flex-direction: row;
     padding: 20px;
     justify-content: space-between;
-    
+    align-items: center
+}
+
+/* start of banner section */
+.banner-section{
+    width: 100%;
 }
 .bg-banner{
-    height: 130vh;
+    /* height: 130vh; */
     background-image: url(../images/banner.jpg);
-    background-position: center;
+    background-position: 50% 0;
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
+    object-fit: cover;
+    vertical-align: middle;
 }
-.bg-banner .banner-item-container{
-    width: 100%;
-    margin: 170px 0 100px 40px;
+.bg-banner .banner-item-container {
+    width: 90%;
+    margin: 249px 0 100px 40px;
     color: white;
 }
-
 .bg-banner h4{
     font-family: -webkit-pictograph;
-    letter-spacing: 3px;
+    letter-spacing: 2.5px;
     font-weight: lighter;
     text-transform: uppercase;
     font-size: 4rem;
 }
 .bg-banner h1{
     font-family: 'Archivo Black', sans-serif;
-    font-size: 98px;
+    font-size: 95px;
     text-transform: uppercase;
 }
 .border-style{
     border-bottom: solid white 10px;
-    margin-top: 19em;
-    width: 50%;
+    /* margin-top: 19em; */
+    width: 55%;
 }
 .slide-icon-container{
-    width: 40%;
+    width: 45%;
     height: 100%;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -75,17 +81,20 @@ h2,h3,h4,h5,h6{
     margin-top: 40px;
     width: auto;
     height: 100px;
-    
 }
 .slide-icon-container p{
     font-size: 1.5rem;
     text-align: center;
     margin-top: 20px;
 }
+
+
+/* Our services section start here */
 .our-services-first{
-    height: 80vh;
+    /* height: 95vh; */
     background-color: #f2f2f2;
     color: #111111;
+    padding-bottom: 100px;
 }
 .our-services-container{
     display: flex;
@@ -117,8 +126,8 @@ h2,h3,h4,h5,h6{
 }
 .btn-container{
     margin-top: 35px;
-    margin-bottom: 60px
-} 
+    margin-bottom: 0
+}
 .booking-btn{
     background-color:#e71a23 ;
     padding: 15px 25px;
@@ -131,10 +140,11 @@ h2,h3,h4,h5,h6{
     font-weight: 500;
     border-radius: 5px;
 }
-.show-room-first .container,
-.our-services-2nd-container{
-    width: 90%;
-    margin: 50px auto;
+
+/* start of show room section */
+.show-room-first .container{
+    width: 80%;
+    margin: 50px auto 0px;
     justify-content: space-between;
 }
  .show-room-first .basin-man-container{
@@ -160,27 +170,30 @@ h2,h3,h4,h5,h6{
     color: #e71a23;
     margin-bottom: 60px;
  }
-.worker-section{
+
+/* star of work section */
+ .worker-section{
     background-color: #f2f2f2;
-    height: 110vh;
+    /* height: 110vh; */
 }
-.worker-width{
-    width: 50%;
+.worker-width {
+    width: 45%;
     display: flex;
-} 
+    padding-left: 60px;
+}
 .worker-section .worker-width .worker-img-container{
     width: 100%;
     background-image: url(../images/quality-photo.png);
     background-repeat: no-repeat;
     background-position: top;
     overflow: hidden;
-    height: 110vh;
-    background-size: cover;
+    /* height: 110vh; */
+    background-size: 495px;
 }
-.worker-section .worker-text{
-    width: 50%;
+.worker-section .worker-text {
+    width: 55%;
     justify-content: center;
-    padding: 30px 40px;
+    padding: 167px 100px 167px 30px;
 }
 .worker-section h2{
     font-size: 60px;
@@ -200,6 +213,13 @@ hr{
     color: #111111;
     /* margin-bottom:  ; */
     font-weight: 300;
+}
+
+/* start of our service 2nd */
+.our-services-2nd-container{
+    width: 80%;
+    margin: 50px auto 100px;
+    justify-content: space-between;
 }
 .our-services-2nd .services{
     align-content: space-between;
@@ -236,11 +256,15 @@ hr{
     line-height: 30px;
     font-size: 20px;
 }
+
+
+/* start of about us section */
+
 .about-section{
     background-color: #104e92;
 }
-.about-section .about-container{
-    padding: 100px 60px 60px 100px;
+.about-section .about-container {
+    padding: 100px 100px 60px 165px;
     justify-content: center;
 }
 .u{
@@ -282,9 +306,11 @@ hr{
     width: 100%;
     height: 100%
 }
+
+/* Start of todo section  */
 .to-do-section .to-do-container{
-    width: 60%;
-    margin: 50px auto 0 auto;
+    width: 55%;
+    margin: 70px auto 70px;
     align-content: center;
     text-align: center;  
 }
@@ -311,6 +337,7 @@ hr{
     gap: 10px;
     justify-content: center;
 }
+
 .footer-section{
     background-color: #333333;
     color: white;
@@ -330,210 +357,3 @@ hr{
     margin-bottom: 70px;
     line-height: 25px;
 }
-
-@media (max-width: 768px){
-    .bg-banner h4{
-        letter-spacing: 2px;
-        font-size: 2.8rem;
-    }
-    .bg-banner h1{
-        font-size: 75px;
-    }
-    .border-style{
-        margin-top: 17em;
-        padding-bottom: 20px;
-        width: 60%;
-    }
-    .slide-icon-container {
-        width: 52%;
-    }
-    .our-services-first {
-        height: 100vh;
-    }
-    .show-room-first .container, .our-services-2nd-container {
-        width: 90%;
-        margin: 50px auto;
-        flex-direction: column;
-    }
-    .show-room-first .basin-man-container {
-        width: 100%;
-    }
-    .show-room-first figcaption {
-        padding: 0 60px;
-    }
-    .worker-section {
-        height: 90vh;
-    }
-    .worker-width {
-        width: 45%;
-        padding-left: 40px;
-    }
-    .worker-section .worker-width .worker-img-container {
-        height: 90vh;
-    }
-    .worker-section .worker-text {
-        width: 55%;
-    }
-    .about-section .about-container {
-        padding: 60px 40px 20px 40px;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .u {
-        width: 100%;
-    }
-    .about-section .img-container {
-        width: 100%;
-    }
-    .about-section .about-text {
-          margin: 60px 20px;
-    }
-    .about-section h2{
-        font-size: 70px; 
-    }
-    span{
-        letter-spacing: 0.2rem;
-    }
-    .to-do-section .to-do-container {
-        width: 80%;
-        margin: 80px auto 0px auto;
-    }
-    .btn-container {
-        margin-top: 70px;
-        margin-bottom: 100px;
-    }
-    .to-do-section h2 {
-        font-size: 40px;
-    }
-    .to-do-section P {
-        font-size: 30px;
-    }
-    .footer-main-container {
-        width: 50%;
-    }
-}
-@media (max-width: 425px){
-    .bg-banner {
-        height: 91vh;
-        background-image: url(../images/banner.jpg);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        overflow: hidden;
-        /* width: 100%; */
-    }
-    .slide-icon-container{
-        display: none;
-    }
-    .bg-banner .banner-item-container {
-        width: 85%;
-        color: white;
-        margin-top: 60vh;
-    }
-    .bg-banner h4{
-        letter-spacing: 2px;
-        font-size: 1.6rem;
-    }
-    .bg-banner h1{
-        font-size: 45px;
-    }
-    .border-style{
-        margin-top: 17em;
-        padding-bottom: 20px;
-        width: 80%;
-    }
-
-
-    .our-services-first h5 {
-        margin-top: 50px;
-    }
-    .our-services-first {
-        height: 100vh;
-    }
-
-
-    .show-room-first .text-center {
-        padding: 30px 15px;
-    }
-    .show-room-first figcaption {
-        padding: 0px 15px;
-    }
-    .show-room-first h2 {
-        font-size: 22px;
-    }
-    .btn-container {
-        margin-top: 30px;
-    }
-    .show-room-first h3 {
-        font-size: 19px;
-        margin-bottom: 60px;
-    }
-
-
-
-    .worker-section {
-        background-color: #f2f2f2;
-        height: 150vh;
-    }
-    .worker-section .worker-container {
-        
-        flex-direction: column;
-        /* justify-content: center; */
-    } 
-    .worker-section .worker-width .worker-img-container {
-        height: 70vh;
-    }
-    .worker-width {
-        width: 100%;
-        padding-left: 20px;
-    }
-    .worker-section .worker-text {
-        width: 100%;
-        padding: 30px 20px;
-    }
-
-
-    .services{
-        flex-direction: column;
-        align-content: unset;
-    }
-    .our-services-2nd .icons-container {
-        width: 100%;
-        margin: 0 auto;
-    }
-    .our-services-2nd p{
-        margin-bottom: 60px;
-    }
-
-
-
-    .about-section .img-container {
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-    .about-section figure {
-        width: 100%;
-        margin-bottom: 40px;
-    }
-
-    .about-section h2 {
-        font-size: 51px;
-    }
-    .about-section h2 {
-        font-size: 60px;
-        word-wrap: break-word;
-        font-family: -webkit-pictograph;
-        font-weight: lighter;
-        line-height: 68px;
-    }
-    .to-do-section .btn-container {
-        flex-direction: column;
-        gap: 3rem;
-        /* margin-top: 35px;
-        margin-bottom: 60px; */
-    }
-
-} 
