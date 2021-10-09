@@ -139,6 +139,7 @@ h2,h3,h4,h5,h6{
     letter-spacing: 2px;
     font-weight: 500;
     border-radius: 5px;
+    border: solid #e71a23 1px;
 }
 
 /* start of show room section */
@@ -356,4 +357,54 @@ hr{
 .first-child{
     margin-bottom: 70px;
     line-height: 25px;
+}
+.footer-section a{
+    color: #e71a23;
+}
+
+/* laptop view */
+
+@media (max-width: 1024px) {
+    .bg-banner h4{
+        letter-spacing: 2.9px;
+        font-size: 3.5rem;
+    }
+    .bg-banner h1{        
+        font-size: 90px;
+    }
+    .border-style{
+        width: 62%;
+    }
+    .slide-icon-container {
+        width: 51%;
+    }
+    .show-room-first .container {
+        width: 93%;
+    }
+    .worker-section .worker-width .worker-img-container {
+        background-size: 427px;
+    }
+
+    .worker-section .worker-text {
+        width: 55%;
+        justify-content: center;
+        padding: 144px 55px 103px 30px;
+    }
+    .our-services-2nd-container {
+        width: 93%;
+    }
+    .about-section .about-container {
+        padding: 65px 49px 60px 75px;
+        justify-content: center;
+    }
+    .about-section h2 {
+        font-size: 75px;
+        line-height: 74px;
+    }
+    .to-do-section .to-do-container {
+        width: 66%;
+    }
+    .footer-main-container{
+        width: 38%;
+    }
 }
