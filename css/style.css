@@ -601,4 +601,23 @@ hr{
 /* Mobile view 375px */
 @media (max-width: 375px){
 
+    .bg-banner {
+    background-position: 81.45% 31%;
+    }
+    .bg-banner h4 {
+        font-size: 2.2rem;
+    }
+    .bg-banner h1{
+        font-size: 50px;
+    }
+    .bg-banner .banner-item-container {
+        width: 87%;
+        margin: 390px 30px 37px 27px;
+    }
+    .border-style{
+    width: 95%;
+    }
+
 }
+
+
