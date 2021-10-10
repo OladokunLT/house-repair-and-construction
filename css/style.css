@@ -408,3 +408,84 @@ hr{
         width: 38%;
     }
 }
+
+/* Tablet view */
+
+@media (max-width: 768px){
+    .bg-banner h4{
+        letter-spacing: 2px;
+        font-size: 2.8rem;
+    }
+    .bg-banner h1{
+        font-size: 75px;
+    } 
+    .border-style{
+        width: 65%;
+    }
+    .slide-icon-container {
+        width: 60%;
+    }
+    .our-services-first h5 {
+        margin-top: 150px;
+    }
+    .show-room-first .container, .our-services-2nd-container {
+        width: 90%;
+        margin: 50px auto;
+        flex-direction: column;
+    }
+    .show-room-first .basin-man-container {
+        width: 100%;
+    }
+    .show-room-first figcaption {
+        padding: 0 60px;
+    }
+    .worker-section .worker-width .worker-img-container {
+        background-size: 380px;
+    }
+    .worker-width {
+        width: 45%;
+        padding-left: 40px;
+    }
+    .worker-section h2 {
+        font-size: 51px;
+        margin-bottom: 40px;
+    }
+    .worker-section p {
+        font-size: 17px;
+    }
+    .worker-section .worker-text {
+        width: 50%;
+        justify-content: center;
+        padding: 130px 15px 39px 32px;
+    }
+    .about-section .about-container {
+        padding: 60px 40px 20px 40px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .u {
+        width: 100%;
+    }
+    .about-section .img-container {
+        width: 100%;
+    }
+    .about-section .about-text {
+          margin: 60px 20px;
+    }
+    .about-section h2{
+        font-size: 70px; 
+    }
+    .to-do-section .to-do-container {
+        width: 90%;
+        margin: 80px auto 80px auto;
+    }
+    .to-do-section h2 {
+        font-size: 40px;
+    }
+    .to-do-section P {
+        font-size: 30px;
+    }
+    .footer-main-container {
+        width: 50%;
+    }
+}
