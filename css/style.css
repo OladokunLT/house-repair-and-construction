@@ -617,7 +617,51 @@ hr{
     .border-style{
     width: 95%;
     }
-
 }
+/* Mobile view 320px */
+@media (max-width: 325px){
+
+    .bg-banner {
+        background-position: 69.45% 31%;
+    }
+    .bg-banner h4 {
+        font-size: 1.8rem;
+    }
+    .bg-banner h1{
+        font-size: 42px;
+    }
+    .bg-banner .banner-item-container {
+        width: 80%;
+        margin: 390px 30px 37px 27px;
+    }
+    .border-style{
+    width: 99%;
+    }
+
+    .our-services-first h2, .our-services-2nd h2 {
+        font-size: 43px;
+    }
+
+    .worker-section .worker-width .worker-img-container {
+        background-position: 6% 21%;
+        background-size: 268px;
+        padding-bottom: 476px;
+    }
+    .our-services-first h2, .our-services-2nd h2 {
+        font-size: 39px;
+    }
+    .about-section h2 {
+        font-size: 48px;
+        line-height: 53px;
+    }
+    .to-do-section h2 {
+        font-size: 35px;
+    }
+    .to-do-section P {
+        font-size: 25px;
+        line-height: 40px;
+    }
+}
+
 
 
